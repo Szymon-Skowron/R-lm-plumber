@@ -25,10 +25,9 @@ error_handler_404 <- function(req, res) {
 }
 
 
-
 # Register the router and run the server
 pr(
-  file='C:/Users/szymo/Desktop/Code/R/plumber.R'
+  file="C:/Users/szymo/Desktop/R-lm-plumber/linear_model.R"
 ) %>%
   pr_set_error(error_handler_500) %>%
   pr_set_404(error_handler_404) %>%
